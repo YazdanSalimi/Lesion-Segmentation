@@ -9,7 +9,7 @@ Currently, the code supports only the NIfTI file format, so you’ll need to con
 The models require body-weight SUV unit and HU CT images as input. Separate models are available using PET only, CT only, and both PET and CT (PET/CT) images. Please ensure you select the appropriate model based on your input. We recommend using the PET only segmentation model when there is a respiratory misalignment between PET and CT images to ave a more accurate output. for the cases with perfect alignment we recommend using PET/CT models. The presence of respiratory misalignment can be automatedly checked using [this resposiroy](https://github.com/YazdanSalimi/PETCT-RMA-Detection). 
 there are two versions of trained models, first using the old nnU-Net network architecture, and the second using the new nnU-Net architceture using residual blocks. the comparison can be found [here](https://github.com/MIC-DKFZ/nnUNet/blob/43349fa5f0680e8109a78dca7215c19e258c9dd7/documentation/resenc_presets.md?plain=1#L80)
 ## Download Trained Models
-[All trained models](https://drive.google.com/drive/folders/1R6_EELnOeTb27YfueGm-X-bR-glgqOAF?usp=drive_link)
+[All trained models]()
 
 
 ## Citation
