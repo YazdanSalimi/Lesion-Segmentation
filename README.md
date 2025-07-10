@@ -8,8 +8,11 @@ Currently, the code supports only the NIfTI file format, so you’ll need to con
 This is the updated models trained on dataset provided by by Jafari et al published in EJNMMI available [here](https://link.springer.com/article/10.1007/s00259-023-06555-z).
 The models require body-weight SUV unit and HU CT images as input. Separate models are available using PET only, CT only, and both PET and CT (PET/CT) images. Please ensure you select the appropriate model based on your input. We recommend using the PET only segmentation model when there is a respiratory misalignment between PET and CT images to ave a more accurate output. for the cases with perfect alignment we recommend using PET/CT models. The presence of respiratory misalignment can be automatedly checked using [this resposiroy](https://github.com/YazdanSalimi/PETCT-RMA-Detection). 
 there are two versions of trained models, first using the old nnU-Net network architecture, and the second using the new nnU-Net architceture using residual blocks. the comparison can be found [here](https://github.com/MIC-DKFZ/nnUNet/blob/43349fa5f0680e8109a78dca7215c19e258c9dd7/documentation/resenc_presets.md?plain=1#L80)
+## Pan Cancer PET FDG lesion segmentation
+This nnUNet models are trained on a big multi-centric local and public dataset including various malignancies. 
 ### Download Trained Models
 [PET Ga-PSMA trained models](https://drive.google.com/drive/folders/1EFz33EvWTQVrexA_OkHhU0AP_aTL3_bK?usp=drive_link)
+[PET FDG trained models](https://drive.google.com/file/d/1DAi8lGHzq5C7G3_p19it8S6cBEdYczT0/view?usp=sharing)
 
 
 ## Installation:
