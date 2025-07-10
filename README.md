@@ -12,6 +12,7 @@ there are two versions of trained models, first using the old nnU-Net network ar
 This nnUNet models are trained on a big multi-centric local and public dataset including various malignancies. 
 ### Download Trained Models
 [PET Ga-PSMA trained models](https://drive.google.com/drive/folders/1EFz33EvWTQVrexA_OkHhU0AP_aTL3_bK?usp=drive_link)
+
 [PET FDG trained models](https://drive.google.com/file/d/1DAi8lGHzq5C7G3_p19it8S6cBEdYczT0/view?usp=sharing)
 
 
